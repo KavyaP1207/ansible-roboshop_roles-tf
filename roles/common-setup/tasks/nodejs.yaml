@@ -1,0 +1,13 @@
+- name: disable default catalogue
+  ansible.builtin.command: dnf module disable nodejs -y
+- name: enabled noedjs 
+  ansible.builtin.command: dnf module enable nodejs:20 -y
+
+- name: install nodejs server
+  ansible.builtin.package:
+      name: nodejs
+      state: present
+
+- name: install dependies
+  community.general.npm:
+      path: /app

@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb-{{ env }}.daws88s.fun # mongodb-dev.daws86s.fun
+MONGODB_HOST: mongodb-{{ env }}.daws88s.sbs # mongodb-dev.daws86s.fun
 REDIS_HOST: redis-{{ env }}.daws88s.sbs
-CATALOGUE_HOST: catalogue-{{ env }}.daws88s.sbs
-CART_HOST: cart-{{ env }}.daws88s.sbs
-MYSQL_HOST: user-{{ env }}.daws88s.sbs
-USER_HOST: rabbitmq-{{ env }}.daws88s.sbs
+CATALOGUE_HOST: catalogue.backen-alb-{{ env }}.daws88s.sbs
+CART_HOST: cart.backen-alb-{{ env }}.daws88s.sbs
+MYSQL_HOST: user.backen-alb-{{ env }}.daws88s.sbs
+USER_HOST: rabbitmq.backen-alb-{{ env }}.daws88s.sbs
 RABBITMQ_HOST: mysql-{{ env }}.daws88s.sbs
-SHIPPING_HOST: shipping-{{ env }}.daws88s.sbs
-PAYMENT_HOST: payment-{{ env }}.daws88s.sbs
+SHIPPING_HOST: shipping.backen-alb-{{ env }}.daws88s.sbs
+PAYMENT_HOST: payment.backen-alb-{{ env }}.daws88s.sbs

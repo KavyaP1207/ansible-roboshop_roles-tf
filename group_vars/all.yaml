@@ -1,4 +1,4 @@
-MONGODB_HOST: mongodb-{{ env }}.daws88s.sbs # mongodb-dev.daws86s.fun
+MONGODB_HOST: mongodb-{{ env }}.daws88s.sbs # mongodb-dev.daws88s.sbs
 REDIS_HOST: redis-{{ env }}.daws88s.sbs
 CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.daws88s.sbs
 CART_HOST: cart.backend-alb-{{ env }}.daws88s.sbs
